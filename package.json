@@ -1,0 +1,26 @@
+{
+  "name": "lightning-axis-visualization",
+  "version": "0.0.0",
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "d3": "^3.5.16",
+    "lightning-client-utils": "^0.6.3",
+    "lightning-visualization": "^0.1.0",
+    "lodash": "^3.8.0",
+    "moment": "^2.11.2"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "lightning": {
+    "name": "lightning-axis-visualization"
+  }
+}
